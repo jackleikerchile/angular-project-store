@@ -1,0 +1,4 @@
+<p *ngIf="product && product.price > 700">
+  <!-- notify emit significa para llamar al metodo notify de products alerts component -->
+  <button type="button" (click)="notify.emit()">Notify Me</button>
+</p>
